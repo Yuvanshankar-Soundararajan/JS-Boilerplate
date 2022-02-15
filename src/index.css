@@ -1,13 +1,187 @@
+/* @import "./style/variable.scss";
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: $Montserrat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
+  font-size: 14px;
+  background: #f8f9fa;
+}
+p {
+  font-size: 14px;
+  color: $text-color;
+}
+.wrapper {
+  margin-left: 270px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
+
+// sidebar
+.sidebar {
+  //   @include for-size(phone-only) {
+  //     display:none;
+  //  }
+  background: #f2eae1;
+  width: 270px;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  .logo {
+    text-align: center;
+    padding: 10px;
+  }
+  .nav {
+    width: 200px;
+    margin: auto;
+    font-size: 14px;
+    height: 100%;
+    margin-top: 3rem;
+    // justify-content: center;
+    .link {
+      color: #333;
+      text-decoration: none;
+    }
+    .nav-link {
+      color: #333;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+      &:hover {
+        color: #000;
+      }
+      svg {
+        width: 22px;
+        height: 22px;
+        margin: 0 15px;
+        fill: #333;
+        &:hover {
+          fill: #000;
+        }
+      }
+    }
+    .nav-link.active {
+      color: #000;
+      background: $primary-color;
+    }
+    .logout-link {
+      height: fit-content;
+      justify-content: baseline;
+    }
+  }
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 0.25rem 0.8rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+  height: 34px;
+  font-size: 12px;
+}
+// form
+
+//loader>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.main {
+  position: fixed;
+  z-index: 1021;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ring {
+  margin: 0;
+  padding: 0;
+  background-color: #262626;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 3px solid #3c3c3c;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: $primary-color;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px$primary-color;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.ring::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  border-top: 3px solid$primary-color;
+  border-right: 3px solid$primary-color;
+  border-radius: 50%;
+  animation: animateCircle 2s linear infinite;
+}
+.join {
+  display: block;
+  position: absolute;
+  top: calc(50% - 2px);
+  left: 50%;
+  width: 50%;
+  height: 4px;
+  background: $primary-color;
+  transform-origin: left;
+  animation: animate 2s linear infinite;
+}
+.join::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: $primary-color;
+  top: -6px;
+  right: -8px;
+  box-shadow: 0 0 20px $primary-color;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+//swal>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.swal-button {
+  background-color: $primary-color;
+  color: white;
+} */
