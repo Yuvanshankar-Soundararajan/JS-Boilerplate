@@ -1,0 +1,119 @@
+.btn-custom {
+    background-color: #e2f3fa;
+    color: black;
+    /* border: none; */
+    padding: 15px;
+    width: 90px;
+    /* border-color: #434546; */
+    height: 30px;
+    border-right-width: 0ch;
+    border-bottom-width: 0ch;
+    border-color: #b3c2c9;
+    /* border-right-width: 2px; */
+    border-bottom-width: 2px;
+    /* border-left-width: 2px; */
+    border-top-width: 2px;
+    color-scheme: inherit
+}
+
+
+.btn-light {
+    background-color: white;
+    color: black;
+    border-color: #434546;
+    /* border: none;     */
+    height: 30px;
+    padding: 15px;
+    width: 90px;
+    border-color: #dbe1e4;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-width: 2px;
+
+}
+
+.btn-custom p {
+    margin-top: -10px;
+}
+
+.btn-light p {
+    margin-top: -10px;
+}
+
+.selectpicker {
+    margin-left: -15px;
+}
+
+
+
+.cont {
+    position: relative;
+    left: 270px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.redcolor {
+    color: red;
+}
+
+.h5 {
+    margin-bottom: 0mm;
+}
+
+.h66 {
+    margin-bottom: 0mm;
+}
+
+.div1 {
+    margin-bottom: 5vh;
+}
+
+.div2 {
+    margin-bottom: 3vh;
+}
+
+.monthlysalary {
+    margin-bottom: 4vh;
+
+}
+
+.infoimg {
+    width: 15px;
+}
+
+.payemployees {
+    margin-bottom: 1vh;
+
+}
+
+.btn-group {
+    margin-bottom: 5vh;
+    /* height: 100px; */
+
+}
+
+.datepick {
+    background-color: bisque;
+    width: 50vh;
+    margin-bottom: 10vh;
+}
+
+
+.dateselect {
+    margin-bottom: 10vh;
+}
+
+.skip-link {
+    background-color: white;
+    color: blue;
+    border: none;
+    font-size: large;
+}
+
+.btn-primary {
+    border-radius: 10vh;
+    height: 6vh;
+}
