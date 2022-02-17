@@ -1,0 +1,57 @@
+/* 
+/* 
+.organization{
+   
+} */
+.or{
+    display: flex;
+    font-size: 2vw;
+}
+
+.business{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name{
+    font-size: 2vw;
+    
+}
+.orng{ 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    
+ } 
+
+.industry{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.add{
+    font-size: 2vw;
+} 
+
+.address{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* width: 100%; */
+     height: auto; 
+     /* display: flex; */
+} */
+
+.save{
+    color: white;
+    background-color: blue;
+    box-decoration-break: slice;
+}
