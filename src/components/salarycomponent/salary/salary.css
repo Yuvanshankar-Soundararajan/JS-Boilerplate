@@ -1,0 +1,18 @@
+
+
+.TaxContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+   }
+   .TaxSubContainer{
+       margin-top: 10%;
+   }
+   .logo{
+       background-color:rgb(176, 196, 204);
+        display: inline;
+        padding: 5px;
+   }
