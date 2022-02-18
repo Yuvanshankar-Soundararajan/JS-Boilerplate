@@ -4,13 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import { RoutePage } from "./route/route-pages";
 import reportWebVitals from "./reportWebVitals";
-import { CommonContext } from "./components/common/context/context";
+// import { CommonContext } from "./components/common/context/context";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommonContext.Provider>
+    {/* <CommonContext.Provider> */}
       <RoutePage />
-    </CommonContext.Provider>
+    {/* </CommonContext.Provider> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
