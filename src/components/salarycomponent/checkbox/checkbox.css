@@ -1,0 +1,22 @@
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#column2{
+    margin-left: 50px;
+}
+#column3{
+    margin-left: 50px;
+}
+#name{
+   color: blue;
+   text-align: left;
+  justify-content: space-around;
+}
+#earning{
+    text-align: left;
+}
+#calculation{
+    text-align: left;
+}

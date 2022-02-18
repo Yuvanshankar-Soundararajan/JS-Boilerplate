@@ -1,0 +1,93 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  /* background: linear-gradient(white, to bottom left right grey); */
+}
+.w-left {
+  flex: 1;
+}
+.w-right {
+  flex: 1;
+
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+/* .w-signup {
+  margin: 50px 100px;
+  font-size: 50px;
+} */
+.w-pr {
+  font-weight: bolder;
+}
+.w-desc {
+  margin-left: 230px;
+  margin-top: 290px;
+}
+ul {
+  line-height: 30px;
+}
+.w-r-desc {
+  margin-left: 35px;
+  margin-top: 230px;
+}
+.w-r-dts {
+  margin-left: 100px;
+}
+.inp {
+  margin: 10px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 400px;
+}
+.btn {
+  background-color: blue;
+  border-radius: 25px;
+  color: white;
+  width: 40vh;
+}
+.icons {
+  list-style: none;
+}
+.bottoms {
+  display: flex;
+}
+.social-icons {
+  display: flex;
+  justify-content: s;
+}
+
+.i-agree {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.terms {
+  margin-left: 10px;
+}
+.submit {
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.b-g-logo {
+  border: 1px solid grey;
+  box-shadow: 2px 3px 3px #888888;
+  width: 90px;
+  height: 33px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.bottoms {
+  display: flex;
+  justify-content: baseline;
+}
+
+.blue {
+  color: blue;
+}
