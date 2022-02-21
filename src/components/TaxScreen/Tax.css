@@ -1,47 +1,46 @@
-
-
-.TaxContainer{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-   }
-   .TaxSubContainer{
-       width: 70%;
-       display: flex;
-       flex-direction: column;
-       height: 100%;
-       justify-content: space-evenly;
-   }
-   .logo{
-       background-color:rgb(176, 196, 204);
-        display: inline;
-        padding: 5px;
-   }
-   .FieldContainer{
-       width: 60%;
-       display: flex;
-       justify-content: space-between;
-       color: slategrey;
-   }
-   .Field{
-       margin-top: 10%;
-   }
-   .Btn_container{
-       display: flex;
-       width: 40%;
-       justify-content: space-between;
-       align-items: center;
-   }
-   .Btn_container{
-       font-size: larger;
-       color: blue;
-       text-transform: capitalize;
-       font-weight: 800;
-       cursor: pointer;
-   }
-   .SubmiBTN{
-       border-radius: 30px;
-   }
+.TaxContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 270px;
+}
+.TaxSubContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.logo {
+  background-color: rgb(176, 196, 204);
+  display: inline;
+  padding: 5px;
+}
+.FieldContainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  color: slategrey;
+}
+.Field {
+  margin-top: 10%;
+}
+.Btn_container {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+.Btn_container {
+  font-size: larger;
+  color: blue;
+  text-transform: capitalize;
+  font-weight: 800;
+  cursor: pointer;
+}
+.SubmiBTN {
+  border-radius: 30px;
+}
